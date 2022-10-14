@@ -17,20 +17,13 @@ int n_last_digit;
 srand(time(0));
 n = rand() - RAND_MAX / 2;
 /*get the last digit of the number*/
-if (n < 0)
-{
-n_last_digit = (n % 10) * (-1);
-}
-else
-{
 n_last_digit = n % 10;
-}
 /*do all the conditions and prints results*/
 if (n_last_digit == 0)
 {
 printf("Last digit of %i is %i and is 0\n", n, n_last_digit);
 }
-else if (n_last_digit < 6 && n_last_digit > 0)
+else if (n_last_digit < 6 && (n_last_digit > 0 || n_last_digit < 0))
 {
 printf("Last digit of %i is %i and less than 6 and not 0\n", n, n_last_digit);
 }
