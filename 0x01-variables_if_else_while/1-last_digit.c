@@ -15,7 +15,7 @@ int n;
 int n_ldg;
 
 srand(time(0));
-n = -98;
+n = rand() - RAND_MAX / 2;
 /*get the last digit of the number*/
 n_ldg = n % 10;
 /*do all the conditions and prints results*/
