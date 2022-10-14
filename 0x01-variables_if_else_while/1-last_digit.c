@@ -17,7 +17,14 @@ int n_last_digit;
 srand(time(0));
 n = rand() - RAND_MAX / 2;
 /*get the last digit of the number*/
+if (n < 0)
+{
+n_last_digit = (n % 10) * (-1);
+}
+else
+{
 n_last_digit = n % 10;
+}
 /*do all the conditions and prints results*/
 if (n_last_digit == 0)
 {
