@@ -32,11 +32,11 @@ fhdg = firs_digit(hours);
 lhdg = hours % 10;
 fmdg = firs_digit(minutes);
 lmdg = minutes % 10;
-if (fhdg == lhdg)
+if (hours < 10 && fhdg == lhdg)
 {
 fhdg = 0;
 }
-if (fmdg == lmdg)
+if (minutes < 10 && fmdg == lmdg)
 {
 fmdg = 0;
 }
