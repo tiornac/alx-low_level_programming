@@ -36,7 +36,7 @@ _putchar('0' + res);
 if (j < 9)
 {
 _putchar(',');
-_putchar(' ');
+_putchar('  ');
 }
 }
 else
@@ -48,7 +48,7 @@ _putchar('0' + ldres);
 if (j < 9)
 {
 _putchar(',');
-_putchar(' ');
+_putchar('  ');
 }
 }
 j++;
