@@ -36,7 +36,10 @@ _putchar('0' + res);
 if (j < 9)
 {
 _putchar(',');
+if (((j + 1) * i) < 10)
+{
 _putchar(' ');
+}
 _putchar(' ');
 }
 }
