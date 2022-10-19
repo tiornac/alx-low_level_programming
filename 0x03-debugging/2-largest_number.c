@@ -17,7 +17,7 @@ if (largest < b)
 {
 largest = b;
 }
-else if (max < c)
+else if (largest < c)
 {
 largest = c;
 }
