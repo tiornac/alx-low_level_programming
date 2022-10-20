@@ -2,6 +2,7 @@
 #include <ctype.h>
 #include <stdlib.h>
 #include <time.h>
+#include "main.h"
 
 /**
  * main - fizz buzz test.
