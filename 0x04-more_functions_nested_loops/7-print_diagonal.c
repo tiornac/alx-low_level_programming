@@ -4,8 +4,8 @@
 #include <time.h>
 #include "main.h"
 /**
- * print_diagonal - straight line \
- * @n: the number of times the character \ should be printed
+ * print_diagonal - parallel line
+ * @n: the number of times the character should be printed
  * Return: nothing
  */
 void print_diagonal(int n)
