@@ -42,15 +42,11 @@ while (j < 15)
 {
 fn = first_digit(j);
 ln = last_digit(j);
-if (fn == ln)
-{
-_putchar('0' + j);
-}
-else
+if (j > 9)
 {
 _putchar('0' + fn);
-_putchar('0' + ln);
 }
+_putchar('0' + ln);
 j++;
 }
 _putchar('\n');
