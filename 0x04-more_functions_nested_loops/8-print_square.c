@@ -5,7 +5,7 @@
 #include "main.h"
 /**
  * print_square - prints a square
- * @n: the number of times the character should be printed
+ * @size: the number of times the character should be printed
  * Return: nothing
  */
 void print_square(int size)
