@@ -40,16 +40,16 @@ while (i < 10)
 j = 0;
 while (j < 15)
 {
-if (j > 9)
-{
 fn = first_digit(j);
 ln = last_digit(j);
-_putchar('0' + fn);
-_putchar('0' + ln);
+if (fn == ln)
+{
+_putchar('0' + j);
 }
 else
 {
-_putchar('0' + j);
+_putchar('0' + fn);
+_putchar('0' + ln);
 }
 j++;
 }
